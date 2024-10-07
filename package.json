@@ -1,15 +1,7 @@
 {
   "name": "surabhi-resume-template",
-  "version": "3.1.0",
+  "version": "1.1.0",
   "description": "Minimal and formal résumé (CV) website template for print, mobile, and desktop",
-  "homepage": "https://github.com/WebPraktikos/universal-resume",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/WebPraktikos/universal-resume.git"
-  },
-  "bugs": {
-    "url": "https://github.com/WebPraktikos/universal-resume/issues"
-  },
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
     "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
